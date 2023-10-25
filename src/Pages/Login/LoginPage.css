@@ -1,0 +1,183 @@
+.input-wrapper {
+    display: grid;
+    padding: 9px 41px;
+}
+.login-container {
+    background: #f2f2f2c7;;
+    height: auto;
+    border-radius: 15px;
+    width: 312px;
+    padding-bottom: 16px;
+    
+}
+img.tata-icon {
+    height: 33px;
+    width: 297px;
+}
+@media (max-width: 800px) {
+    .login-container{
+        height: auto;
+    }
+   
+  }
+@media only screen and (max-width: 600px) {
+   
+    .login-container{
+        height: auto;
+        width: 240px;
+        right: 30px !important;   
+    }
+    .form-input{
+        width: 150px;
+        
+    }
+    img.tata-icon {
+        height: 32px !important;
+        width: 211px !important;
+        top: 14px;
+        margin-top: 19px;
+    }
+    .login-container .forgot-p{
+        margin-left: 109px;
+    }
+    .login-page .heading {
+        font-size: 24px;
+        position: absolute;
+        top: -8vh;
+        right: 5vw;
+        letter-spacing: 4px;
+        color: #ffffff;
+    }
+            
+    
+    .login-container p{
+        margin-left: 40px;
+    }
+    .login-container .sign-in {
+        width: 150px ;
+        margin-top: 20px;
+        margin-left: 46px;
+        padding: 5px 0;
+        font-size: 10px;
+        color: #FFFFFF;
+        background-color: #006694;
+        border-color: #006694;
+        outline: none;
+        border: none;
+    }
+    .input-wrapper .visibility-ico{
+        margin-top: 23px;
+        margin-left: 126px;
+}
+
+    }
+
+   
+   
+  
+
+  
+input.form-input {
+    height: 23px;
+    border: 1px solid #d5cece;
+    outline-color: #d5cece;
+    border-radius: 2px;
+    position: relative;
+   
+    
+}
+
+.login-page{
+    margin-left: 1px;
+    
+}
+.forgot-p {
+    margin: 0px;
+    margin-left: 166px;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.img-tata{
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    
+}
+
+p{
+    margin-left: 40px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.icon-rel{
+    
+}
+
+.login-header{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    padding-top: 14px;
+    
+}
+span{
+    font-weight: 400;
+}
+.heading{
+    font-size: 33;
+   
+    top: 5vh;
+    right: 12vw;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+button.sign-in {
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 77px;
+    padding: 5px 0;
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #006694;
+    border-color: #006694;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.arrow-ico {
+    height: 13px;
+    width: 10px;
+    margin-top: 4px;
+}
+.input-label{
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.validation{
+    color: red;
+    font-size: 11px;
+}
+.visibility-ico{
+    position: absolute;
+    position: absolute;
+    top: px;
+    margin-top: 20px;
+    margin-left: 193px;
+
+}
+img.visib-icon {
+    height: 15px;
+    width: 18px;
+    
+}

@@ -1,0 +1,38 @@
+@import url('./Pages/AuditRound/AuditRound.css');
+@import url('./Pages/Consequence/Consequence.css');
+@import url('./Pages/Dashboard/Dashboard.css');
+@import url('./Pages/Estate/Estate.css');
+@import url('./Pages/Fir/Fir.css');
+@import url('./Pages/LayoutContainer/LayoutContainer.css');
+@import url('./Pages/Login/LoginPage.css');
+@import url('./Pages/MockDrill/MockDrill.css');
+@import url('./Pages/MomSheMeeting/MomSheMeeting.css');
+@import url('./Pages/NearMissSafetyObservationTracker/NearMissSafetyObservationTracker.css');
+@import url('./Pages/Psi/Psi.css');
+@import url('./Pages/Rca/Rca.css');
+@import url('./Pages/RcaScoreCard/RcaScoreCard.css');
+@import url('./Pages/Recognition/Recognition.css');
+@import url('./Pages/ResumeDuty/ResumeDuty.css');
+@import url('./Pages/ScoreCard/ScoreCard.css');
+@import url('./Pages/sifPas/sifPas.css');
+@import url('./Pages/TrainingRecord/TrainingRecord.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./Components/Sidebar/SideBar.css');
+@import url('./Pages/Register/Register.css');
+@import url('./Components/Header/Header.css');
+@import url('./Components/Content/Content.css');
+@import url('./Components/Table/Table.css');
+@import url('./Pages/Login/loginLayout.css');
+@import url('./Pages/TrainingRecord/TrainingRecordForm.css');
+
+html{
+   overflow: hidden;
+}
+body{
+   margin: 0;
+    
+}
+
+*{
+    font-family: Poppins !important; 
+}

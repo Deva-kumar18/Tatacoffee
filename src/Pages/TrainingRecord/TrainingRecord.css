@@ -1,0 +1,52 @@
+
+.training-rec {
+    background-color: #145FA2;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    padding: 6px 11px;
+    border-radius: 4px;
+}
+    .tr-heading{
+        font-weight: bold;
+    }
+    .row-1{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .row-2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .filter-section{
+     display: flex;
+    }
+    .training-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont-2{
+        margin-bottom: 30px;
+    }
+    select{
+        padding: 4px 8px;
+        
+    }
+    .exp-sel{
+        background-color: #E63946;
+        outline: none;
+        border-radius: 2px;
+        border-color: none;
+        margin-right: 20px;
+        color: #FFFFFF;
+    }
+    input{
+        padding: 3px;
+    }
+    .filter{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
