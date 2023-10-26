@@ -23,29 +23,69 @@ const TrainingRecordForm = () => {
                 <input type='text' className='input-training-form'></input> 
             </div>
             </div>
-          
-            <div className='input-wrapper'>
+             <div className='t-form-row-2'>
+             <div className='input-wrapper'>
                 <label>Mgt.staff</label>
-                <input type='text'></input>
+                <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
                 <label>JMS</label>
-                <input type='text'></input>
+                <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
                 <label>Staff/artisan staff</label>
-                <input type='text'></input>
+                <input type='text' className='input-training-form'></input>
             </div>
-            <div className='input-wrapper'>
+             </div>
+           <div className='t-form-row-3'>
+           <div className='input-wrapper'>
                 <label>Workmen perm+artsaft+LabSup</label>
-                <input type='text'></input>
+                <input type='text' className='input-training-form'></input>
             </div><div className='input-wrapper'>
                 <label>Causals /migrants</label>
-                <input type='text'></input>
+                <input type='text' className='input-training-form'></input>
             </div><div className='input-wrapper'>
                 <label>Mgt.staff</label>
-                <input type='text'></input>
+                <input type='text' className='input-training-form'></input>
             </div>
+           </div>
+           <div className='t-form-row-3'>
+           <div className='input-wrapper'>
+                <label>Mode of training</label>
+                <select className='select-input'>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+            <div className='input-wrapper'>
+                <label>Duration of training</label>
+                <input type='text' className='input-training-form'></input>
+            </div>
+            <div className='input-wrapper'>
+                <label>Training conducted by</label>
+                <input type='text' className='input-training-form'></input>
+            </div>
+            
+            </div> 
+            <div className='t-form-row-4'>
+            <div className='input-wrapper'>
+                <label>Training conducted by</label>
+                <input type='text' className='input-training-form'></input>
+            </div>
+            <div className='input-wrapper'>
+                <label>Training conducted by</label>
+                <input type='text' className='input-training-form'></input>
+            </div>
+            </div> 
+            <div className='t-form-row-5'>
+            <div className='input-wrapper-des'>
+                <label>Description of the training/Training Topic</label>
+                <input type='text' className='input-training-description'></input>
+            </div>
+            </div>
+            
         </form>
         
     </div>

@@ -1,4 +1,37 @@
 .t-form{
     display: grid;
+    margin-right: 10px;
     
+}
+.t-form-row-4 {
+    display: flex;
+}
+.t-form-row-1 {
+    display: flex;
+    justify-content: space-around;
+}
+select.select-input {
+    width: 310px;
+}
+input.input-training-form {
+    width: 298px;
+    outline: none;
+    
+}
+.t-form-row-2 {
+    display: flex;
+    justify-content: space-around;
+}
+input.input-training-description {
+    width: 343px;
+    height: 97px;
+}
+.input-wrapper-des {
+    display: grid;
+    margin-left: 45px;
+}
+
+.t-form-row-3 {
+    display: flex;
+    justify-content: space-around;
 }

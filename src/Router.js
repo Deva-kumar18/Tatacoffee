@@ -71,6 +71,10 @@ export const router = createBrowserRouter([{
     },{
         path:"scorecard",
         element:<ScoreCard/>
+    },
+    {
+        path:"trainingrecordform",
+        element:<TrainingRecordForm/>
     },{
         path:"sifpas",
         element:<SifPas/>
@@ -86,8 +90,4 @@ export const router = createBrowserRouter([{
     path:"register",
     element:<Register/>
 },
-{
-    path:"trainingrecordform",
-    element:<TrainingRecordForm/>
-}
 ])

@@ -90,7 +90,7 @@
             height: 93vh;
             width: 85vw;
             left: 221px;
-            padding: 20px;
+            padding: 9px;
             box-sizing: border-box;
         }
         .header-container .h-header{
@@ -163,7 +163,7 @@
     position: relative;
     background-color: #FAFAFA;
     left: 16vw;
-    padding: 20px;
+    padding: 9px;
     box-sizing: border-box;
 }
 

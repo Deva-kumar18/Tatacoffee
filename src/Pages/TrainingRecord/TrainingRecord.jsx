@@ -1,11 +1,13 @@
 import React from 'react'
 import Table from '../../Components/Table/Table'
+import { NavLink } from 'react-router-dom'
+import TrainingRecordForm from './TrainingRecordForm'
 
 
 const TrainingRecord = () => {
   return (
     <div className='training-container'><div className='cont-1'>
-        <div className='row-1'><div className='tr-heading'>TRAINING RECORD</div><div className='tr-btn'><button className='training-rec'>Add Training Record</button></div>
+        <div className='row-1'><div className='tr-heading'>TRAINING RECORD</div><div className='tr-btn'><NavLink to={"/trainingrecordform"}><button className='training-rec'>Add Training Record</button></NavLink></div>
     </div>
      <div className='cont-2'><div className='row-2'><div className='filter-section'><form className='filter' ><label>Divisin Filter</label>
     <select name="SelectDivision" id="SelectDivision">
