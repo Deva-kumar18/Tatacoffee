@@ -1,9 +1,10 @@
 import React from 'react'
 import User from '../../Assets/login.png'
+import Heading from '../../Assets/Header.png'
 
 const Header = () => {
   return (
-    <div className='header-container'><h1 className='h-header'>TATA <span>COFFEE</span></h1><img className='u-login' src={User}/></div>
+    <div className='header-container'><div className='h-header'><img className='heading' src={Heading}/></div><img className='u-login' src={User}/></div>
   )
 }
 

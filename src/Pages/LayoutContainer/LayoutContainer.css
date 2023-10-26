@@ -93,11 +93,11 @@
             padding: 20px;
             box-sizing: border-box;
         }
-        .header-container .h-header{
+        .header-container .h-header {
             margin: 0;
             font-size: 24px;
-            color: #145FA2;
             margin-left: 262px;
+            
         }
         .header-container{
             height: 7vh !important;
