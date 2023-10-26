@@ -1,7 +1,7 @@
 import React from 'react'
 import Table from '../../Components/Table/Table'
 import { NavLink } from 'react-router-dom'
-import TrainingRecordForm from './TrainingRecordForm'
+import Searchico from '../../Assets/search.png'
 
 
 const TrainingRecord = () => {
@@ -22,7 +22,7 @@ const TrainingRecord = () => {
     </div><div className='import-section'>
     <from><select className='exp-sel'>
     <option value="export as">Export as</option> </select></from>
-    <input type='search' placeholder='search'/></div></div></div></div>
+    <input type='search' className='input-search' placeholder='search'/><div className='search-ico'><img className='s-icon'  src={Searchico}/></div></div></div></div></div>
     <Table/></div>
   )
 }

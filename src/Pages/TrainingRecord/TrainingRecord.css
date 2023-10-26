@@ -37,13 +37,27 @@
     .exp-sel{
         background-color: #E63946;
         outline: none;
-        border-radius: 2px;
+        border-radius: 4px;
         border-color: none;
         margin-right: 20px;
         color: #FFFFFF;
+        border: #E63946;
     }
     input{
         padding: 3px;
+        
+    }
+    .input-search{
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid #F2F2F2;
+        position: relative;
+    }
+    
+    .search-ico{
+        position: absolute;
+        top: 5vw;
+        left: 81vw;
     }
     .filter{
         display: flex;

@@ -1,8 +1,15 @@
 import React from 'react'
+import ARROW from '../../Assets/rightarrow.png'
+import { NavLink } from 'react-router-dom'
 
 const TrainingRecordForm = () => {
   return (
     <div className='training-r-form'>
+        <div className='training-form-back'>
+        <div className='back-btn'><NavLink to={"/trainingrecord"}><img  className='Tfback-icon' src={ARROW}/></NavLink></div>
+        <div className='back-title'>Add Training Record</div>
+        </div>
+       
         <form className='t-form'>
             <div className='t-form-row-1'>
             <div className='input-wrapper'>
@@ -39,7 +46,7 @@ const TrainingRecordForm = () => {
              </div>
            <div className='t-form-row-3'>
            <div className='input-wrapper'>
-                <label>Workmen perm+artsaft+LabSup</label>
+                <label>Workmen (perm+artsaft+LabSup)</label>
                 <input type='text' className='input-training-form'></input>
             </div><div className='input-wrapper'>
                 <label>Causals /migrants</label>
@@ -60,22 +67,22 @@ const TrainingRecordForm = () => {
                 </select>
             </div>
             <div className='input-wrapper'>
-                <label>Duration of training</label>
+                <label>Duration of training(Minutes)</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
-                <label>Training conducted by</label>
+                <label>Training conducted by(Name)</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             
             </div> 
             <div className='t-form-row-4'>
             <div className='input-wrapper'>
-                <label>Training conducted by</label>
+                <label>Training Man-Hours</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
-                <label>Training conducted by</label>
+                <label>Remarks</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             </div> 
@@ -87,6 +94,10 @@ const TrainingRecordForm = () => {
             </div>
             
         </form>
+        <div className='t-form-bottom'>
+            <div className='tf-cancel'><p className='atr-cancel'>cancel</p></div>
+            <div className='tf-addtraining'><button className='atr-btn'>Add Training Record</button></div>
+        </div>
         
     </div>
   )

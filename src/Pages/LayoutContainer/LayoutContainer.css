@@ -88,9 +88,9 @@
     @media only screen and (min-width: 900px) {
         .layout-page .display-content{
             height: 93vh;
-            width: 85vw;
+            width: 84vw;
             left: 221px;
-            padding: 9px;
+            padding: 20px;
             box-sizing: border-box;
         }
         .header-container .h-header{

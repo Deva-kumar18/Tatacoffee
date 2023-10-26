@@ -2,7 +2,7 @@ import React from 'react'
 import Visibility from '../../Assets/visibility.png'
 import Delete from '../../Assets/delete.png'
 import Edit from '../../Assets/pencil.png'
-import VisibilityOff from '@mui/icons-material/VisibilityOff'
+
 
 const Table = () => {
   return (
