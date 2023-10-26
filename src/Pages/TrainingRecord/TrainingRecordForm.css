@@ -1,6 +1,6 @@
 .t-form{
     display: grid;
-    margin-right: 10px;
+    margin-right: 1px;
     
 }
 .t-form-row-4 {
@@ -12,21 +12,22 @@
 }
 select.select-input {
     width: 310px;
-    box-shadow: -1px 0px 0px 3px  rgba(242,242,242,0.27) !important;
--webkit-box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27) !important;
--moz-box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27) !important;
-border: 1px solid #F2F2F2;
+    box-shadow: 1px 1px 1px -2px rgba(145,141,141,0.75)!important;
+   -webkit-box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;
+   -moz-box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;
+   border: 1px solid #F2F2F2;
+   outline: none;
 
 }
 input.input-training-form {
-    width: 298px;
+    width: 290px;
     border: 1px solid #F2F2F2;
-    box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27);
-    -webkit-box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27);
-    -moz-box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27);
-
+    box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;;
+    -webkit-box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;;
+     -moz-box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;
     outline: #F2F2F2;
     border-bottom: 4px #F2F2F2;
+    height: 27px;
     
 }
 .t-form-row-2 {
@@ -37,18 +38,20 @@ input.input-training-description {
     width: 343px;
     height: 97px;
     border: 1px solid #F2F2F2;
-    box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27)!important;
-    -webkit-box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27) !important;
-    -moz-box-shadow: -1px 0px 0px 3px rgba(242,242,242,0.27)  !important;
+    box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;
+    -webkit-box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;
+    -moz-box-shadow: 3px 3px 3px -2px rgba(145,141,141,0.75)!important;
     outline: #F2F2F2;
 }
 .input-wrapper-des {
     display: grid;
-    margin-left: 45px;
+    margin-left: 34px;
     
     
 }
-
+.atr-form-lbl{
+    font-size: 12px;
+}
 .t-form-row-3 {
     display: flex;
     justify-content: space-around;

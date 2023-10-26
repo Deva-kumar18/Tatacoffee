@@ -13,11 +13,11 @@ const TrainingRecordForm = () => {
         <form className='t-form'>
             <div className='t-form-row-1'>
             <div className='input-wrapper'>
-                <label>Date</label>
+                <label className='atr-form-lbl'>Date</label>
                 <input type="date" className='input-training-form' ></input>
             </div>
             <div className='input-wrapper'>
-                <label>Division</label>
+                <label className='atr-form-lbl'>Division</label>
                 <select className='select-input'>
                     <option></option>
                     <option>PMD</option>
@@ -26,39 +26,39 @@ const TrainingRecordForm = () => {
                 </select>
             </div>
             <div className='input-wrapper'>
-                <label>Total Number of emplyees on the roll</label>
+                <label className='atr-form-lbl'>Total Number of emplyees on the roll</label>
                 <input type='text' className='input-training-form'></input> 
             </div>
             </div>
              <div className='t-form-row-2'>
              <div className='input-wrapper'>
-                <label>Mgt.staff</label>
+                <label className='atr-form-lbl'>Mgt.staff</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
-                <label>JMS</label>
+                <label className='atr-form-lbl'>JMS</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
-                <label>Staff/artisan staff</label>
+                <label className='atr-form-lbl'>Staff/artisan staff</label>
                 <input type='text' className='input-training-form'></input>
             </div>
              </div>
            <div className='t-form-row-3'>
            <div className='input-wrapper'>
-                <label>Workmen (perm+artsaft+LabSup)</label>
+                <label className='atr-form-lbl'>Workmen (perm+artsaft+LabSup)</label>
                 <input type='text' className='input-training-form'></input>
             </div><div className='input-wrapper'>
-                <label>Causals /migrants</label>
+                <label className='atr-form-lbl'>Causals /migrants</label>
                 <input type='text' className='input-training-form'></input>
             </div><div className='input-wrapper'>
-                <label>Mgt.staff</label>
+                <label className='atr-form-lbl'>Mgt.staff</label>
                 <input type='text' className='input-training-form'></input>
             </div>
            </div>
            <div className='t-form-row-3'>
            <div className='input-wrapper'>
-                <label>Mode of training</label>
+                <label className='atr-form-lbl'>Mode of training</label>
                 <select className='select-input'>
                     <option></option>
                     <option></option>
@@ -67,28 +67,28 @@ const TrainingRecordForm = () => {
                 </select>
             </div>
             <div className='input-wrapper'>
-                <label>Duration of training(Minutes)</label>
+                <label className='atr-form-lbl'>Duration of training(Minutes)</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
-                <label>Training conducted by(Name)</label>
+                <label className='atr-form-lbl'>Training conducted by(Name)</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             
             </div> 
             <div className='t-form-row-4'>
             <div className='input-wrapper'>
-                <label>Training Man-Hours</label>
+                <label className='atr-form-lbl'>Training Man-Hours</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             <div className='input-wrapper'>
-                <label>Remarks</label>
+                <label className='atr-form-lbl'>Remarks</label>
                 <input type='text' className='input-training-form'></input>
             </div>
             </div> 
             <div className='t-form-row-5'>
             <div className='input-wrapper-des'>
-                <label>Description of the training/Training Topic</label>
+                <label className='atr-form-lbl'>Description of the training/Training Topic</label>
                 <input type='text' className='input-training-description'></input>
             </div>
             </div>
